@@ -45,8 +45,8 @@ except Exception as Ex:
 
 ''' check for update xD '''
 try:
- upd = get("https://github.com/TripleHat/BOT/core/.V1")
- if upd.status_code in reqSucc:
+ upd = get("https://github.com/TripleHat/BOT/blob/master/core/.V1")
+ if upd.status_code == 200:
   ''' No Update '''
   pass
  if upd.status_code == 404:
