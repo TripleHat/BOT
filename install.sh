@@ -13,7 +13,7 @@ for i in python python3; do
  fi
 done
 
-for pyp in requests gtts ; do
+for pyp in requests gTTS gtts ; do
  echo "installing $pyp"
  sleep 1
  pip3 install $pyp
