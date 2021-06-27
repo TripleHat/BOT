@@ -19,4 +19,4 @@ for pyp in requests gTTS gtts ; do
  pip3 install $pyp
 done
 
-clear; #python bot.py
+clear; python bot.py
