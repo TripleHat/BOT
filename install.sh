@@ -2,7 +2,7 @@
 
 # Cheching Dependencies
 
-for i in python python3; do
+for i in python play-audio python3; do
  if [[ -e $PATH/$i ]]; then
   echo "package $i Found!"
   sleep 1
