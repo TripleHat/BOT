@@ -1,4 +1,6 @@
 #!/bin/python
+# Coded by TripleHat
+# Just Fun Bot xD
 
 try:
  import requests
